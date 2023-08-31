@@ -7,7 +7,7 @@ user_dic = {
     3: "Scissors"
 }
 
-computer_list = ["Rock", "Paper", "scissors"]
+computer_list = ["Rock", "Paper", "Scissors"]
 
 running = True
 
@@ -32,7 +32,7 @@ while running == True:
                     print("you Won")
 
             elif user == 2:
-                if computer == "scissors":
+                if computer == "Scissors":
                     print("You lose!")
                 else:
                     print("You win!")
